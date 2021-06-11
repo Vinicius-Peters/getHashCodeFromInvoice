@@ -1,5 +1,5 @@
 # getHashCodeFromInvoice
-This is a script that retrieves all invoice data from the Sap B1 database and validates the hash code.
+This is a query that retrieves all invoice data from the Sap B1 database and validates the hash code.
 
 There was a problem where notes were being generated with the wrong Hash Code field, and to check which notes were with this problem, I developed a query in SQL where I performed this verification and pointed out which notes really had problems in generating the hash code.
 
